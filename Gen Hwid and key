@@ -20,13 +20,13 @@ wait(1.5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KONGKIRTHUB/XMoonHub-/main/X_Moon_Hub.txt"))()
 else
 game.StarterGui:SetCore("SendNotification", {
-       Title = "Moon Hub Premium script", 
+       Title = "Moon Hub | Premium script", 
        Text = ("Invalid Key dm x2S#1708")
        })
 end
 else
 game.StarterGui:SetCore("SendNotification", {
-       Title = "Moon Hub Premium script", 
+       Title = "Moon Hub | Premium script", 
        Text = ("Invalid Hwid dm x2S#1708")
    }) 
 end
