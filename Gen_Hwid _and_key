@@ -1,0 +1,9 @@
+     local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
+       function Randomkey(v)
+    local GenKey = ""
+    for i = 1,v do
+       GenKey = GenKey ..string.char(math.random(80,90))
+    end
+      return GenKey
+end
+setclipboard("Hwid : "..ClientId.."\nKey : MOON-"..Randomkey(5).."-"..Randomkey(5))
