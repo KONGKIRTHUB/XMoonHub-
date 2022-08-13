@@ -1,16 +1,3 @@
--- [
---game.StarterGui:SetCore("SendNotification", {
---        Title = "Script", 
- --       Text = ("Invalid key")
-  --  })
---game.StarterGui:SetCore("SendNotification", {
- --       Title = "Script", 
-   --     Text = ("Invalid HWID")
---    }) 
--- setclipboard(ClientId)
--- d1c3d91e-17a4-4a8e-9045-ba6eb0e1fcf8   
---Hwid : d1c3d91e-17a4-4a8e-9045-ba6eb0e1fcf8
---Key : MOON-RXSVS-ZPZUX
 local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
 local Hwid = {
     [1] = "d1c3d91e-17a4-4a8e-9045-ba6eb0e1fcf8",
