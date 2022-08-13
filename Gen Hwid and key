@@ -1,0 +1,45 @@
+-- [
+--game.StarterGui:SetCore("SendNotification", {
+--        Title = "Script", 
+ --       Text = ("Invalid key")
+  --  })
+--game.StarterGui:SetCore("SendNotification", {
+ --       Title = "Script", 
+   --     Text = ("Invalid HWID")
+--    }) 
+-- setclipboard(ClientId)
+-- d1c3d91e-17a4-4a8e-9045-ba6eb0e1fcf8   
+--Hwid : d1c3d91e-17a4-4a8e-9045-ba6eb0e1fcf8
+--Key : MOON-RXSVS-ZPZUX
+local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
+local Hwid = {
+    [1] = "d1c3d91e-17a4-4a8e-9045-ba6eb0e1fcf8",
+    ["d1c3d91e-17a4-4a8e-9045-ba6eb0e1fcf8"] = 1,
+    [2] = "NewHwid",
+    ["NewHwid"] = 2,
+}
+local Key = {
+    [1] = "MOON-RXSVS-ZPZUX",
+    [2] = "NawKey",
+}
+local KeyNumber = Hwid[ClientId]
+if Hwid[KeyNumber] == ClientId then
+if Key[KeyNumber] == _G.Key then
+game.StarterGui:SetCore("SendNotification", {
+       Title = "Moon Hub Premium script", 
+       Text = ("Succeed Loading Gui !")
+       })
+wait(1.5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KONGKIRTHUB/XMoonHub-/main/X_Moon_Hub.txt"))()
+else
+game.StarterGui:SetCore("SendNotification", {
+       Title = "Moon Hub Premium script", 
+       Text = ("Invalid Key dm x2S#1708")
+       })
+end
+else
+game.StarterGui:SetCore("SendNotification", {
+       Title = "Moon Hub Premium script", 
+       Text = ("Invalid Hwid dm x2S#1708")
+   }) 
+end
