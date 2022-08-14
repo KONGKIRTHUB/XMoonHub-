@@ -4,10 +4,13 @@ local Hwid = {
     ["c0741440-f48d-466d-86eb-1f63e254632a"] = 1,
     [2] = "87704e1e-e5f4-4bc0-8727-99ad1f912194",
     ["87704e1e-e5f4-4bc0-8727-99ad1f912194"] = 2,
+    [3] = "nil",
+    ["nil"] = 3,
 }
 local Key = {
     [1] = "MOON-RXSVS-ZPZUX",
     [2] = "MOON-ZTZUU-YRUWZ",
+    [3] = "nil",
 }
 local KeyNumber = Hwid[ClientId]
 if Hwid[KeyNumber] == _G.Hwid then
