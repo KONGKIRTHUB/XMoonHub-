@@ -10,7 +10,7 @@ local Key = {
     [2] = "MOON-ZTZUU-YRUWZ",
 }
 local KeyNumber = Hwid[ClientId]
-if Hwid[KeyNumber] == ClientId then
+if Hwid[KeyNumber] == _G.Hwid then
 if Key[KeyNumber] == _G.Key then
 game.StarterGui:SetCore("SendNotification", {
        Title = "Moon Hub Premium script", 
