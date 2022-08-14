@@ -2,12 +2,12 @@ local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
 local Hwid = {
     [1] = "d1c3d91e-17a4-4a8e-9045-ba6eb0e1fcf8",
     ["d1c3d91e-17a4-4a8e-9045-ba6eb0e1fcf8"] = 1,
-    [2] = "NewHwid",
-    ["NewHwid"] = 2,
+    [2] = "87704e1e-e5f4-4bc0-8727-99ad1f912194",
+    ["87704e1e-e5f4-4bc0-8727-99ad1f912194"] = ,
 }
 local Key = {
     [1] = "MOON-RXSVS-ZPZUX",
-    [2] = "NawKey",
+    [2] = "MOON-ZTZUU-YRUWZ",
 }
 local KeyNumber = Hwid[ClientId]
 if Hwid[KeyNumber] == ClientId then
