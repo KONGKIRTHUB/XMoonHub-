@@ -984,7 +984,7 @@ end
 
 
 
-local DinoWindow = Dino:CreateWindow("Blox fruit Free Script [ Made By x2S#1708 ]")
+local DinoWindow = Dino:CreateWindow("Blox fruit Premium Script [ Made By x2S#1708 ]")
 
 -- Script
 if game.PlaceId == 2753915549 then
