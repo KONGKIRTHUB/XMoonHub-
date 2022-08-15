@@ -1,5 +1,4 @@
-_G.Hwid = "c0741440-f48d-466d-86eb-1f63e254632a"
-_G.Key = "MOON-RXSVS-ZPZUX"
+
 local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
 local Hwid = {
     [1] = "c0741440-f48d-466d-86eb-1f63e254632a",
@@ -22,7 +21,7 @@ game.StarterGui:SetCore("SendNotification", {
        Text = ("Succeed Loading Gui !")
        })
 wait(1.5)
-print("d")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KONGKIRTHUB/XMoonHub-/main/lll.lua"))()
 else
 game.StarterGui:SetCore("SendNotification", {
        Title = "Moon Hub | Premium script", 
